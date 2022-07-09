@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+:root{
+    --red:rgb(255, 255, 255);
+    --hover:rgb(29, 147, 216);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.gamecontainer{
+    display: flex;
+    justify-content: center;
+    margin: 200px 5px 10px 5px;
+}
+.grid{
+    display: grid;
+    grid-template-rows: repeat(3,130px);
+    grid-template-columns: repeat(3,130px);
+    margin-right: 200px;
+     
+    
+    
+}
+.box{
+    border: 5px solid var(--red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    border-radius: 30px;
+     
+}
+.box:hover{
+    background-color: var(--hover);
+    cursor: pointer;
+}
+.boxtext{
+    font-size: 82px;
+   
+    color: antiquewhite;
+    text-shadow: 10px 10px 1px rgb(96, 87, 138);
+}
+.info{
+    margin-left: 100px;
+    
+}
+.info span{
+    font-size: 58px;
+    margin: 50px;
+    text-shadow: 5px 5px 10px rgb(214, 138, 24);
+}
+.imgbox img{
+    width: 0px;
+    transition: width 1s ease-in;
+    height:230px;
+    margin-left: 200px;
+    
+}
+.reset{
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(53, 8, 255);
+    font-size: 30px;
+   color: aliceblue;
+   border: 3px solid rgb(241, 241, 247);
+  outline: #eeb006 solid 7px;
+  margin: auto;  
+  padding: 10px;
+  text-align: center;
+  text-shadow: 5px 5px 3px rgb(19, 1, 14);
+   
+
+    
+}
+#result{
+    font-size: 50px;
+    margin-left: 180px;
+    color:white;
+    font-size: 50px;
+    font-weight: 700;
+     font-style: oblique;
+     margin-top: 20px;
+     text-shadow: 5px 5px 10px rgb(94, 16, 114);
+}    
+#wel{
+    font-size: 60px;
+    color: white;
+    font-weight: 900;
+     margin-bottom: 30px;
+   text-shadow: 5px 5px 10px rgb(7, 27, 248);
+   
+}
+ #turntext{
+    margin-left: 150px;
+    color:white;
+    font-size: 25px;
+    font-weight: 500;
+     font-style: oblique;
+     text-shadow: 5px 5px 10px rgb(224, 129, 20);
+     
+
+ }
+ #winpic{
+    
+    border-radius: 100px;
+    
+ }
