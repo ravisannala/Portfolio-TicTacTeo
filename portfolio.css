@@ -1,0 +1,102 @@
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+      
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+}
+#notificationside{
+   display: flex;
+   flex-direction: row;
+}
+#pic{
+   height:50px;
+   width: 50px;
+   padding: 3px;
+   margin: 3px;
+   background-color: black;
+   border-radius: 60%;
+}
+#branchlogo{
+    height:50px;
+    width: 50px;
+    padding: 3px;
+    margin: 3px;
+    background-color: blue;
+    border-radius: 60%;
+}
+#branchname{
+    color: #444BAB;
+    font-size: 30px;
+    
+}
+#notipic{
+   height:50px;
+   width: 50px;
+   padding: 3px;
+    margin: 3px;
+    background-color: black;
+    border-radius: 60%;
+}
+#nameholder{
+    font: bold;
+    font-size:20px ;
+}
+#profilepic{
+   height: 300px;
+   width:300px ;
+   padding: 5px;
+   margin: 5px;
+   border-radius: 30%;
+   background-color: black;
+}
+#phoneno{
+   padding: 2px;
+   margin: 5px;
+   
+}
+#mailid{
+   padding: 2px;
+   margin: 5px;
+}
+#insta{
+   padding: 2px;
+   margin: 5px;
+}
+#insta{
+   padding: 2px;
+   margin: 5px;
+}
+#linkedin{
+   padding: 2px;
+   margin: 5px;
+}
+#profilepart{
+    height: 800px;
+    width: 500px;
+ 
+   margin-left: 80px;
+   
+}
+#name{
+   margin-left: 50;
+   
+}
+#educationid{
+   height: 600px;
+    width: 700px;
+
+    margin-left: 680px;
+    overflow-x: hidden;
+    position: relative;
+    bottom: 800px;
+
+
+    
+}
+body{
+   height: 900px;
+}
